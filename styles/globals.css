@@ -1,0 +1,76 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body {
+	overflow: hidden;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #f0f0f0;
+}
+
+/* index */
+
+.rive {
+	height: 224px;
+}
+
+.card {
+	overflow: hidden;
+	width: 400px;
+	border: 1px solid gray;
+	border-radius: 20px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.contents {
+	padding: 10px;
+}
+.contents p a {
+	margin-right: 5px;
+	text-decoration: none;
+	color: black;
+}
+.contents p a:hover {
+	font-weight: bold;
+}
+
+/* rating */
+.container {
+	text-align: center;
+}
+.avatar-container {
+	height: 300px;
+	aspect-ratio: 1/1;
+}
+.buttons {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+.buttons button {
+	padding: 10px 20px;
+	border-radius: 8px;
+	font-size: 20px;
+}
+.buttons button.like {
+	background-color: green;
+}
+.buttons button.dislike {
+	background-color: red;
+}
+
+/* the button */
+
+.thebutton_container {
+	height: 500px;
+	aspect-ratio: 1/1;
+}
